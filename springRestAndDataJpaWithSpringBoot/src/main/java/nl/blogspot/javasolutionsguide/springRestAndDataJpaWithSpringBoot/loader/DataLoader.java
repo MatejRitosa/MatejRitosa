@@ -22,7 +22,7 @@ public class DataLoader implements ApplicationRunner {
     }
 
     public void run(ApplicationArguments args) {
-        
+
         employeeRepository.save(new Employee("Mark",1000,"Developer"));
 
     }
