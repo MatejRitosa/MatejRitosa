@@ -25,6 +25,16 @@ public class Employee {
     @Column(name="DEPARTMENT")
     private String department;
 
+
+    public Employee(String name, int salary, String department1) {
+
+        this.department = department1;
+        this.name = name;
+        this.salary = salary;
+
+    }
+
+
     public Long getId() {
         return id;
     }
