@@ -1,0 +1,1 @@
+insert into EMPLOYEE values(1,'IT','Matej', 2000);
