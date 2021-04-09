@@ -1,4 +1,4 @@
-package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot;
+package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

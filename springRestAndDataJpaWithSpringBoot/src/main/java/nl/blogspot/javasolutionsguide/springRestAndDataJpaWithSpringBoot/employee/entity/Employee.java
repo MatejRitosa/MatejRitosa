@@ -1,11 +1,8 @@
-package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.entity;
+package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.department.entity.Department;
+
+import javax.persistence.*;
 
 
 @Entity
@@ -24,6 +21,7 @@ public class Employee {
 
     @Column(name="DEPARTMENT")
     private String department;
+
 
 
     public Long getId() {

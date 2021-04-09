@@ -1,4 +1,4 @@
-package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.controller;
+package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.entity.Employee;
-import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.service.EmployeeService;
+import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.entity.Employee;
+import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.service.EmployeeService;
 
 @RestController
 public class EmployeeRestController {

@@ -1,16 +1,17 @@
-package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.service.impl;
+package nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.service.impl;
 
 import java.util.List;
 import java.util.Optional;
+
+import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.entity.Employee;
+import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.repository.EmployeeRepository;
+import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.employee.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.entity.Employee;
-import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.repository.EmployeeRepository;
-import nl.blogspot.javasolutionsguide.springRestAndDataJpaWithSpringBoot.service.EmployeeService;
 
 
 @Service
-public class EmployeeServiceImpl implements EmployeeService{
+public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
     private EmployeeRepository employeeRepository;
